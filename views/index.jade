@@ -1,0 +1,29 @@
+extend layout
+block content
+  .container(style="margin-top:75px;")
+    //- .page-header(id='banner')
+      //- .row
+      //-   .col-lg-8.col-md-7.col-sm-6
+      //-     h1 Welcome to IPerio.
+    .row
+      div(id='rawdatatable')
+    div(id='incoming_tcp_graph', style="height:500px")
+      svg
+    br
+    br
+    div(id='attack_map', style="height:500px")
+      svg
+    br
+    br
+    div(id='chart', style="height:500px")
+      table.table.table-striped.table-hover(id='live_table')
+        tr
+          td Date
+          td Source IP
+          td Reverse Hostname
+          td Country
+          td Dest IP
+          td Proto
+          td Source Prot
+          td Dest Port
+          td Flags

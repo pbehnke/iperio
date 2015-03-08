@@ -1,0 +1,12 @@
+nav.navbar-wrapper.navbar-inverse.navbar-fixed-top(role="navigation")
+  .container
+    div.navbar-header
+      a.navbar-brand(href="/") IPerio
+      button.navbar-toggle(data-toggle="collapse", data-target=".navHeaderCollapse")
+
+    div.collapse.navbar-collapse.navHeaderCollapse
+        ul.nav.navbar-nav
+          li(class=title=='Home' ? 'active' : undefined)
+            a(href="/") Live Chart
+          li(class=title=='graph' ? 'active' : undefined)
+            a(href="/") Live Graph

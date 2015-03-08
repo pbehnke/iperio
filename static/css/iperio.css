@@ -1,0 +1,21 @@
+
+
+.tick {
+  opacity: 0.3 !important;
+}
+
+svg text {
+    fill: LightGray;
+}
+
+.nvtooltip {
+	color: black;
+}
+
+#live_table {
+	width: 100%;
+}
+
+.flag {
+	padding: 5px;
+}
